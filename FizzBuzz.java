@@ -1,6 +1,6 @@
 public class FizzBuzz {
     public static void main(String[] args) {
-        int fizzCounter = 3; //keep track of # of times print ("Fizz") is executed
+        int fizzCounter = 3; //keep track of # of times print ("Fizz") isn't executed
         int buzzCounter = 5;
         for (int i = 1; i <= 100; i++) {
             fizzCounter--; //increments down to 0
